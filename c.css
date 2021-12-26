@@ -1,41 +1,56 @@
 body {
-  background-color: #d4dada;
-  font-family: "IBM Plex Mono";
+  background-color: #eceff4;
+  font-family: "Fira Code", monospace;
   margin: 40px;
+  color: #2e3440;
+}
+
+::selection {
+  background: #4c566a;
+  color: #eceff4;
+}
+
+::-moz-selection {
+  background: #4c566a;
+  color: #eceff4;
 }
 
 a {
-  color: #556699;
+  color: #5e81ac;
   font-style: italic;
+}
+
+a:hover {
+  color: #81a1c1;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 700px;
+  width: 70vw;
   margin: auto;
   justify-content: center;
 }
 
 article {
-  width: 700px;
-  min-width: 700px;
+  max-width: 700px;
+
   text-indent: 30px;
 }
 
 img {
-  mix-blend-mode: hard-light;
+  mix-blend-mode: screen;
   width: 100%;
   display: block;
 }
 
 .img {
-  background-color: #556699;
+  background-color: #5e81ac;
   mix-blend-mode: multiply;
 }
 
 footer {
-  background-color: #d4dada;
+  background-color: #eceff4;
   text-align: center;
   margin: auto;
 }
