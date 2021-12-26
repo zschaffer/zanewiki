@@ -1,8 +1,6 @@
 body {
-  background-color: #d4dad;
+  background-color: #d4dada;
   font-family: "IBM Plex Mono";
-  text-indent: 30px;
-
   margin: 40px;
 }
 
@@ -14,22 +12,30 @@ a {
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 700px;
+  margin: auto;
   justify-content: center;
 }
 
 article {
   width: 700px;
   min-width: 700px;
+  text-indent: 30px;
 }
 
 img {
   mix-blend-mode: hard-light;
   width: 100%;
-  max-width: 40vw;
   display: block;
 }
 
 .img {
   background-color: #556699;
   mix-blend-mode: multiply;
+}
+
+footer {
+  background-color: #d4dada;
+  text-align: center;
+  margin: auto;
 }
