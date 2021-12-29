@@ -32,6 +32,21 @@ a:hover {
   justify-content: center;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  color: #2e3440;
+  background-color: #2e3440;
+  width: 700px;
+}
+
+.old-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 article {
   max-width: 700px;
 
