@@ -54,7 +54,7 @@ article {
 }
 
 img {
-  mix-blend-mode: screen;
+  mix-blend-mode: hard-light;
   width: 100%;
   display: block;
 }
