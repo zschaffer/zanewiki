@@ -72,6 +72,8 @@ footer {
 }
 .gr_grid {
   border: 1px solid #5e81ac;
+  min-width: 40px;
+  min-height: 80px;
 }
 .gr_grid_book_container {
   float: left;
