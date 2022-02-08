@@ -54,20 +54,27 @@ article {
   text-indent: 30px;
 }
 
-img {
+.blogImg {
   mix-blend-mode: hard-light;
   width: 100%;
   display: block;
 }
 
-.img {
+.blogImgContainer {
   background-color: #5e81ac;
   mix-blend-mode: multiply;
-
 }
 
 footer {
   background-color: #eceff4;
   text-align: center;
   margin: auto;
+}
+.gr_grid {
+  border: 1px solid #5e81ac;
+}
+.gr_grid_book_container {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
 }
