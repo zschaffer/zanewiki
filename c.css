@@ -4,6 +4,12 @@ body {
   margin: 40px;
   color: #2e3440;
 }
+.darkmode {
+  background-color: #2e3440;
+  font-family: monospace;
+  margin: 40px;
+  color: #eceff4;
+}
 
 ::selection {
   background: #4c566a;
@@ -66,7 +72,7 @@ article {
 }
 
 footer {
-  background-color: #eceff4;
+  /* background-color: #eceff4; */
   text-align: center;
   margin: auto;
 }
@@ -87,4 +93,8 @@ footer {
   margin: 10px;
   width: 75px;
   image-rendering: -webkit-optimize-contrast;
+}
+
+.darkBlogImgContainer {
+  mix-blend-mode: exclusion !important;
 }
