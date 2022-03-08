@@ -2,7 +2,6 @@ const currentlyReadingBox = document.getElementById("currentlyReading");
 const read2022Box = document.getElementById("read2022");
 async function fetchFromWorkers(type) {
   const url = `https://books.zanewiki.workers.dev/${type}`;
-  console.log(url);
   try {
     const response = await fetch(url);
     const data = await response.json();
@@ -26,10 +25,9 @@ function mapBooks(bookList, container) {
     const bookID = book.id;
     const link = document.createElement("a");
     link.href = book.volumeInfo.infoLink;
-
     const thumbnail = document.createElement("img");
     thumbnail.classList.add("thumbnail");
-    thumbnail.src = `http://books.google.com/books/content?id=${bookID}&printsec=frontcover&img=1&zoom=1&source=gbs_api`;
+    thumbnail.src = `https://books.google.com/books/content?id=${bookID}&printsec=frontcover&img=1&zoom=1&source=gbs_api`;
     link.appendChild(thumbnail);
     container.appendChild(link);
   });
