@@ -1,33 +1,36 @@
 body {
-  background-color: #eceff4;
-  font-family: monospace;
+  background-color: #faf4ed;
+  font-family: "Iosevka Nerd Font", monospace;
+  font-size: 1em;
   margin: 40px;
-  color: #2e3440;
+  color: #575279;
 }
+
 .darkmode {
-  background-color: #2e3440;
+  background-color: #232136;
   font-family: monospace;
   margin: 40px;
-  color: #eceff4;
+  color: #e0def4;
 }
 
 ::selection {
-  background: #4c566a;
-  color: #eceff4;
+  background: #907aa9;
+  color: #fffaf3;
 }
 
 ::-moz-selection {
-  background: #4c566a;
-  color: #eceff4;
+  background: #907aa9;
+  color: #fffaf3;
 }
 
 a {
-  color: #5e81ac;
-  font-style: italic;
+  color: #286983;
+  text-decoration: none;
+  font-style: none;
 }
 
 a:hover {
-  color: #81a1c1;
+  color: #56949f;
 }
 
 .container {
@@ -41,11 +44,13 @@ a:hover {
 }
 
 hr {
+  margin: 0px 20px;
   border: none;
   height: 1px;
-  color: #2e3440;
-  background-color: #2e3440;
-  width: 600px;
+  color: #797593;
+  background-color: #797593;
+  max-width: 560px;
+  width: 70vw;
 }
 
 .old-container {
@@ -57,7 +62,7 @@ hr {
 
 article {
   max-width: 600px;
-
+  margin: 20px;
   text-indent: 30px;
 }
 
@@ -68,7 +73,7 @@ article {
 }
 
 .blogImgContainer {
-  background-color: #5e81ac;
+  background-color: #907aa9;
   mix-blend-mode: multiply;
 }
 
