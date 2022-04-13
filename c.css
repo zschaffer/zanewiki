@@ -1,6 +1,6 @@
 body {
   background-color: #faf4ed;
-  font-family: "Iosevka Nerd Font", monospace;
+  font-family: "iMWritingQuattroS Nerd Font", monospace;
   font-size: 1em;
   margin: 40px;
   color: #575279;
@@ -25,8 +25,9 @@ body {
 
 a {
   color: #286983;
-  text-decoration: none;
-  font-style: none;
+  text-decoration: underline;
+  text-decoration-skip: auto;
+  font-style: italic;
 }
 
 a:hover {
