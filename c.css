@@ -6,13 +6,6 @@ body {
   color: #575279;
 }
 
-.darkmode {
-  background-color: #232136;
-  font-family: monospace;
-  margin: 40px;
-  color: #e0def4;
-}
-
 ::selection {
   background: #907aa9;
   color: #fffaf3;
@@ -26,7 +19,7 @@ body {
 a {
   color: #286983;
   text-decoration: underline;
-  text-decoration-skip: auto;
+  text-decoration-skip-ink: auto;
   font-style: italic;
 }
 
@@ -105,8 +98,4 @@ footer {
   width: 75px;
   height: 110px;
   image-rendering: -webkit-optimize-contrast;
-}
-
-.darkBlogImgContainer {
-  mix-blend-mode: exclusion !important;
 }
